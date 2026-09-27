@@ -1,0 +1,63 @@
+# =============================================
+# CampusHire - Smart Campus Placement System
+# .gitignore
+# =============================================
+
+# ---- Java / Maven ----
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.log
+.mvn/repository/
+mvnw
+mvnw.cmd
+
+# ---- Spring Boot ----
+HELP.md
+*.iml
+*.ipr
+*.iws
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ---- Node.js / npm ----
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+package-lock.json
+
+# ---- Vite / React Build ----
+frontend/dist/
+frontend/.vite/
+
+# ---- Environment & Secrets ----
+.env
+.env.local
+.env.*.local
+application-secret.properties
+
+# ---- OS Files ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- Tools (Local Maven download — large binary, not needed in repo) ----
+tools/
+# Uncomment below to include tools folder if needed:
+# !tools/apache-maven-3.9.6/bin/
+# !tools/apache-maven-3.9.6/conf/
+
+# ---- Test scripts ----
+test-login.ps1
+
+# ---- IDE ----
+*.swp
+*.swo
+.vscode/settings.json
